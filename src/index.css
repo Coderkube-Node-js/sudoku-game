@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.winner-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .winner-message h2 {
+    color: #4caf50;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .winner-message p {
+    color: #555;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .restart-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .restart-btn:hover {
+    background-color: #0056b3;
+  }
+  
